@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { ModuleTwoRoutingModule } from './module-two-routing.module';
-import { ComponentTwoComponent } from './component-two/component-two.component';
+import {ModuleTwoRoutingModule} from './module-two-routing.module';
+import {ComponentTwoComponent} from './component-two/component-two.component';
 
 @NgModule({
   imports: [

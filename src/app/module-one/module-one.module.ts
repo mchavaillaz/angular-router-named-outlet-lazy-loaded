@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { ModuleOneRoutingModule } from './module-one-routing.module';
-import { ComponentOneComponent } from './component-one/component-one.component';
+import {ModuleOneRoutingModule} from './module-one-routing.module';
+import {ComponentOneComponent} from './component-one/component-one.component';
 
 @NgModule({
   imports: [
@@ -11,4 +11,5 @@ import { ComponentOneComponent } from './component-one/component-one.component';
   ],
   declarations: [ComponentOneComponent]
 })
-export class ModuleOneModule { }
+export class ModuleOneModule {
+}
