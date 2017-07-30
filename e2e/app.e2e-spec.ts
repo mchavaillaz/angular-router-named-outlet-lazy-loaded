@@ -1,6 +1,6 @@
 import { MyAppPage } from './app.po';
 
-describe('my-app App', () => {
+describe('angular-router-named-outlet-lazy-loaded App', () => {
   let page: MyAppPage;
 
   beforeEach(() => {
