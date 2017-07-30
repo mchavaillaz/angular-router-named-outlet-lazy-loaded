@@ -2,8 +2,9 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {ComponentModuleOneProxyComponent} from './component-module-one-proxy/component-module-one-proxy.component';
 
-// Version with lazy loaded module one in named route outlet
-// And module two lazy loaded in route outlet
+// Version with lazy loaded module one in named router outlet
+// using proxy ( https://github.com/angular/angular/issues/12842 see response from UnwrittenFun commented on 6 Jan )
+// Module two lazy loaded in router outlet
 const routes: Routes = [
   {path: '', redirectTo: '', pathMatch: 'full'},
   {
