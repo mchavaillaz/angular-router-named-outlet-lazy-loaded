@@ -10,7 +10,17 @@
 <ul>
   <li>
     <h2>
+      <a routerLink="">Home</a>
+    </h2>
+  </li>
+  <li>
+    <h2>
       <a [routerLink]="[{outlets: {'module-one-outlet': ['module-one']}} ]">Module One lazy loaded, display in named router outlet</a>
+    </h2>
+  </li>
+  <li>
+    <h2>
+      <a [routerLink]="[{outlets: {'module-one-outlet': null}} ]">Clear Module One lazy loaded, display in named router outlet</a>
     </h2>
   </li>
   <li>
