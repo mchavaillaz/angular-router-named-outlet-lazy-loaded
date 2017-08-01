@@ -10,24 +10,20 @@
 <ul>
   <li>
     <h2>
-      <a routerLink="module-one">Module One lazy loaded</a>
+      <a [routerLink]="[{outlets: {'module-one-outlet': ['module-one']}} ]">Module One lazy loaded, display in named router outlet</a>
     </h2>
   </li>
   <li>
     <h2>
-      <a routerLink="module-two">Module Two lazy loaded</a>
+      <a routerLink="module-two">Module Two lazy loaded, displayed in router outlet (no name)</a>
     </h2>
   </li>
 </ul>
 <div>
-  <h3>Module one/two - lazy loaded - router-outlet</h3>
-  <router-outlet></router-outlet>
-</div>
-<div>
-  <h3>Module one - lazy loaded - router-outlet named</h3>
+  <h3>Module one - lazy loaded - name router outlet</h3>
   <router-outlet name="module-one-outlet"></router-outlet>
 </div>
 <div>
-  <h3>Module two - lazy loaded - router-outlet named</h3>
-  <router-outlet name="module-two-outlet"></router-outlet>
+  <h3>Module two - lazy loaded - router-outlet</h3>
+  <router-outlet></router-outlet>
 </div>
