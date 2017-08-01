@@ -1,10 +1,10 @@
 # MyApp
 
+Show how to lazy load a module in a named router outlet using a proxy component.
+
+Work around using a proxy component suggested by [UnwrittenFun](https://github.com/angular/angular/issues/12842).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
-
-Try to lazy load modules in named router outlet.
-
-Maybe I'm having this issue --> https://github.com/angular/angular/issues/12842
 
 ## Development server
 
